@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "admin(4)", "http://localhost:9940", "{2BFB80F1-68B6-47E0-8D0B-EC71BB723EB7}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{1903495f-e3a0-494a-b552-29da432d8a24}|BLL.dll;{47B586DD-3094-4440-BCAC-C23EDC764899}|DAL.dll;{62CD4FBA-2E7C-4BC3-B2C7-87C29FAD046D}|Model.dll;{885a6a9a-2af6-41e7-9e1e-7ee12997cd3d}|Jnwf.BLL.dll;{CF57BDD4-9462-431F-A926-6771EEB29716}|Jnwf.DAL.dll;{27CC3955-D955-45E7-B9D1-0C8DDD458C1B}|Jnwf.Model.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9940"
+		Debug.AspNetCompiler.PhysicalPath = "admin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9940\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9940"
+		Release.AspNetCompiler.PhysicalPath = "admin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9940\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "admin\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{62CD4FBA-2E7C-4BC3-B2C7-87C29FAD046D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{47B586DD-3094-4440-BCAC-C23EDC764899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{1903495F-E3A0-494A-B552-29DA432D8A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jnwf.Model", "Jnwf.Model\Jnwf.Model.csproj", "{27CC3955-D955-45E7-B9D1-0C8DDD458C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jnwf.BLL", "Jnwf.BLL\Jnwf.BLL.csproj", "{885A6A9A-2AF6-41E7-9E1E-7EE12997CD3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jnwf.DAL", "Jnwf.DAL\Jnwf.DAL.csproj", "{CF57BDD4-9462-431F-A926-6771EEB29716}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://120.27.105.138:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = http://localhost:9940
+		SccProjectName1 = admin
+		SccLocalPath1 = admin
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = Model\\Model.csproj
+		SccProjectName2 = Model
+		SccLocalPath2 = Model
+		SccProjectUniqueName3 = DAL\\DAL.csproj
+		SccProjectName3 = DAL
+		SccLocalPath3 = DAL
+		SccProjectUniqueName4 = BLL\\BLL.csproj
+		SccProjectName4 = BLL
+		SccLocalPath4 = BLL
+		SccProjectUniqueName5 = Jnwf.Model\\Jnwf.Model.csproj
+		SccProjectName5 = Jnwf.Model
+		SccLocalPath5 = Jnwf.Model
+		SccProjectUniqueName6 = Jnwf.BLL\\Jnwf.BLL.csproj
+		SccProjectName6 = Jnwf.BLL
+		SccLocalPath6 = Jnwf.BLL
+		SccProjectUniqueName7 = Jnwf.DAL\\Jnwf.DAL.csproj
+		SccProjectName7 = Jnwf.DAL
+		SccLocalPath7 = Jnwf.DAL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFB80F1-68B6-47E0-8D0B-EC71BB723EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFB80F1-68B6-47E0-8D0B-EC71BB723EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFB80F1-68B6-47E0-8D0B-EC71BB723EB7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFB80F1-68B6-47E0-8D0B-EC71BB723EB7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{62CD4FBA-2E7C-4BC3-B2C7-87C29FAD046D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CD4FBA-2E7C-4BC3-B2C7-87C29FAD046D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CD4FBA-2E7C-4BC3-B2C7-87C29FAD046D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CD4FBA-2E7C-4BC3-B2C7-87C29FAD046D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B586DD-3094-4440-BCAC-C23EDC764899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B586DD-3094-4440-BCAC-C23EDC764899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B586DD-3094-4440-BCAC-C23EDC764899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B586DD-3094-4440-BCAC-C23EDC764899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1903495F-E3A0-494A-B552-29DA432D8A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1903495F-E3A0-494A-B552-29DA432D8A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1903495F-E3A0-494A-B552-29DA432D8A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1903495F-E3A0-494A-B552-29DA432D8A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CC3955-D955-45E7-B9D1-0C8DDD458C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CC3955-D955-45E7-B9D1-0C8DDD458C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CC3955-D955-45E7-B9D1-0C8DDD458C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CC3955-D955-45E7-B9D1-0C8DDD458C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885A6A9A-2AF6-41E7-9E1E-7EE12997CD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885A6A9A-2AF6-41E7-9E1E-7EE12997CD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885A6A9A-2AF6-41E7-9E1E-7EE12997CD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885A6A9A-2AF6-41E7-9E1E-7EE12997CD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF57BDD4-9462-431F-A926-6771EEB29716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF57BDD4-9462-431F-A926-6771EEB29716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF57BDD4-9462-431F-A926-6771EEB29716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF57BDD4-9462-431F-A926-6771EEB29716}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
